@@ -186,11 +186,6 @@ input[type="text"] {
   display: grid;
   grid-template-columns: 20% 60% auto;
 }
-.main-container {
-  background-color: #fcfcfc;
-  /* box-shadow: 2px 3px 2px 2px rgba(0,0,0,.1); */
-}
-
 /* container */
 .container {
   width: 100%;
@@ -347,6 +342,7 @@ i {
   margin-bottom: 1.3rem;
   letter-spacing: 0.5px;
   font-size: 1.3rem;
+  padding-top: 1.12rem;
 }
 .left-side {
   padding: 0 12px;
@@ -366,13 +362,13 @@ iframe {
   border-radius: 10px;
 }
 .video {
-  box-shadow: 0px 5px 14px 3px rgba(0, 0, 0, 0.3);
-  padding: 18px 8px;
+ 
+  padding: 5px 8px 15px 8px;
   border-radius: 6px;
   margin-bottom: 18px;
   width: 100%;
 }
 .right-side > h3 {
-  padding: 15px 0 18px 15px;
-  font-size: 1.3rem;
+  padding: 15px 0 0 15px;
+  font-size: 1.4rem;
 }
