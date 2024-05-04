@@ -1,0 +1,113 @@
+.header {
+  background: linear-gradient(rgb(15, 0, 0), rgb(0, 0, 14));
+}
+.main-page-title {
+  background: linear-gradient(rgb(216, 216, 216), rgb(228, 241, 241));
+  border-radius: 1% 25%;
+  z-index: 1111;
+}
+
+body {
+  background-image: url(./images/html-text-file-images/bg.jpg);
+  object-position: center;
+  width: 100%;
+  background-position: center;
+}
+
+/* main container  */
+
+.content-container > .container {
+  width: 100%;
+  max-width: 330px;
+  border: 1px solid #bebaba;
+  padding: 10px 8px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  margin-top: 2.6rem;
+
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: 200ms ease-out;
+}
+.content-container > .container:hover {
+  box-shadow: 13px 18px 12px rgba(0, 0, 0, 0.2);
+  border: rgb(245, 190, 9) 1.5px solid;
+}
+button:hover,
+.tag-name span:hover {
+  box-shadow: 6px 9px 5px rgba(102, 90, 90, 0.2);
+  border: rgb(12, 128, 206) 1px solid;
+}
+
+.container > .image > img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 1rem;
+}
+.container > .image > img:hover {
+  border: rgb(145, 221, 231) 1.4px solid;
+}
+.container > .image {
+  margin-bottom: 1.2rem;
+}
+
+.tag-name > span {
+  border: #ececec 1px solid;
+  padding: 5px 15px;
+  border-radius: 18px;
+  margin: 10px;
+  background-color: #f5faff;
+}
+
+.container > .containr-header h3 {
+  padding: 10px 5px 5px 10px;
+}
+
+.text-container {
+  margin: 10px 5px 5px 10px;
+  opacity: 0.4;
+  font-size: 1.1rem;
+  font-family: "Ubuntu", sans-serif;
+}
+.btn {
+  text-align: center;
+  margin: 10px 0 15px;
+}
+button {
+  padding: 10px 20px;
+  background-color: #cfe8ff;
+  border-color: transparent;
+  border-radius: 20px;
+  color: rgb(49, 110, 202);
+  font-weight: 700;
+  transition: 120ms ease-out;
+}
+
+#main-container .content-container {
+  display: flex;
+  gap: 4%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.footer-container {
+  background: linear-gradient(#c6ccfa, #d0ece9);
+}
+
+.layout-container{
+    grid-template-columns: 16% 68% auto;
+}
+
+.adsenseOnLeft
+{
+  float: left;
+  width:100% !important;
+}
+
+
+.left-side h3 ul li a{
+    position: relative;
+}
